@@ -12,10 +12,9 @@ import java.text.DecimalFormat
 
 /**
  * 双向选择器控件
- * @author lilei
+ * @author libai
  * @since 2020-2-26
  * @version 1.0
- * @description 由剪贝TimePickerView控件修改而来
  */
 class DoubleSlideSeekView constructor(context: Context, attrs: AttributeSet?, defStyle: Int)
     : RelativeLayout(context, attrs, defStyle) {
