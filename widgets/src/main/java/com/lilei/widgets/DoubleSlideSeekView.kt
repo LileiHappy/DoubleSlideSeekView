@@ -12,7 +12,8 @@ import java.text.DecimalFormat
 
 /**
  * 双向选择器控件
- * @author libai
+ * @author lilei
+ * @email 1542978431@qq.com（有问题或者交流可以发邮件到我的邮箱）
  * @since 2020-2-26
  * @version 1.0
  */

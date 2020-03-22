@@ -12,6 +12,7 @@ import android.widget.TextView
 /**
  * 时间文本视图
  * @author lilei
+ * @email 1542978431@qq.com（有问题或者交流可以发邮件到我的邮箱）
  * @since 2020-2-29
  * @version 1.0
  */
