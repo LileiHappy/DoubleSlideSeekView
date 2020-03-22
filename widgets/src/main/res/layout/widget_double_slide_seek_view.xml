@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <com.lilei.widgets.TimeTextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="14dp" />
+
+    <ImageView
+        android:id="@+id/iv_picker_left"
+        android:layout_width="16dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/tv_time"
+        android:layout_gravity="right"
+        android:layout_marginTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/widget_double_slide_seek_handler_left" />
+
+    <ImageView
+        android:id="@+id/iv_picker_right"
+        android:layout_width="16dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@id/iv_picker_left"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="left"
+        android:scaleType="fitXY"
+        android:src="@drawable/widget_double_slide_seek_handler_right" />
+
+    <TextView
+        android:id="@+id/tv_picker_central"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignTop="@id/iv_picker_left"
+        android:layout_toLeftOf="@id/iv_picker_right"
+        android:layout_toRightOf="@id/iv_picker_left"
+        android:background="@drawable/widget_double_slide_seek_center_rect"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/ll_progress"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_picker_left"
+        android:layout_marginLeft="-6dp"
+        android:layout_toRightOf="@id/iv_picker_left"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/widget_spring_green" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/widget_double_slide_seek_dot" />
+    </LinearLayout>
+</RelativeLayout>
+
+
